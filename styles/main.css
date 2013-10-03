@@ -1,0 +1,36 @@
+/* CSS Document */
+
+body {
+    background-color: rgb(48,48,0);
+    color: rgb(127,176,192);
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bookman Antiqua";
+    font-size: 5em;
+    font-variant: small-caps;
+    color: rgb(127,224,240);
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+    font-family: "Bookman Antiqua";
+    font-size: 2.2em;
+    color: rgb(127,224,240);
+}
+
+a:link    { color: rgb(127,144,240) }
+a:visited { color: rgb(127,144,240) }
+a:hover   { color: rgb(127,144,240) }
+a:active  { color: rgb(127,144,240) }
+
+
+footer {
+    font-size: 0.75em;
+}
