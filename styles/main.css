@@ -1,35 +1,45 @@
 /* CSS Document */
-
+    
 body {
-    background-color: rgb(48,48,0);
-    color: rgb(127,176,192);
+    background-color: #000000;
+    background-image:url('../images/ext_chem_stamps_olive_73pct.jpg');
+    color: c4c3b2;
     font-family: Arial, sans-serif;
     font-size: 1.4em;
     text-align: center;
 }
-
+    
 h1 {
-    font-family: "Bookman Antiqua";
-    font-size: 5em;
+    font-family: "Garamond";
+    font-size: 4.5em;
     font-variant: small-caps;
-    color: rgb(127,224,240);
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+    color: 914a26;
+    text-shadow: 2px 2px 1px rgba(44,44,44,0.66);
 }
 
 p {
-    line-height: 1.5em;
+    font-size: 1.0em;
+    color: black;
 }
 
 h2 {
     font-family: "Bookman Antiqua";
     font-size: 2.2em;
-    color: rgb(127,224,240);
+    color: 914a26;
+    margin-bottom: 6px;
+    text-shadow: 1px 1px 1px rgba(44,44,44,0.66);
 }
 
-a:link    { color: rgb(127,144,240) }
-a:visited { color: rgb(127,144,240) }
-a:hover   { color: rgb(127,144,240) }
-a:active  { color: rgb(127,144,240) }
+a:link    { color: #142375 }
+a:visited { color: #142375 }
+a:hover   { color: #142375 }
+a:active  { color: #142375 }
 
+a img {
+    height=2.2em;
+}
 
 footer {
     font-size: 0.75em;
