@@ -3,10 +3,22 @@
 body {
     background-color: #000000;
     background-image:url('../images/ext_chem_stamps_olive_73pct.jpg');
+    background-attachment:fixed;
     color: c4c3b2;
     font-family: Arial, sans-serif;
     font-size: 1.4em;
     text-align: center;
+    margin: 2em;
+}
+
+.contentpane {
+    margin: 1em;
+    padding: 1em;
+    /* background-image: linear-gradient(-135deg, rgba(15,15,15,.4), rgba(25,25,45,.4)); */
+    background-color: rgba(0,0,0,.7);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(42,42,42,0.7);
 }
     
 h1 {
@@ -14,33 +26,42 @@ h1 {
     font-size: 4.5em;
     font-variant: small-caps;
     letter-spacing: 0.1em;
-    margin-bottom: 6px;
-    color: 914a26;
+    margin-top: 0.3em;
+	margin-bottom: 0.3em;
+    color: ad582d;
     text-shadow: 2px 2px 1px rgba(44,44,44,0.66);
+}
+
+img {
+    padding: 1em;
+    max-width: 95%;
+    max-height: 95%;
 }
 
 p {
     font-size: 1.0em;
-    color: black;
+    color: #c9d6cd;
 }
 
 h2 {
     font-family: "Bookman Antiqua";
-    font-size: 2.2em;
-    color: 914a26;
-    margin-bottom: 6px;
-    text-shadow: 1px 1px 1px rgba(44,44,44,0.66);
+	font-size: 2.5em;
+    color: ad582d;
+    margin-bottom: 1.0em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1.0);
 }
 
-a:link    { color: #142375 }
-a:visited { color: #142375 }
-a:hover   { color: #142375 }
-a:active  { color: #142375 }
-
-a img {
-    height=2.2em;
-}
+a:link    { color: #1bcce0 }
+a:visited { color: #1bcce0 }
+a:hover   { color: #b6c6fa }
+a:active  { color: #b6c6fa }
 
 footer {
     font-size: 0.75em;
+    color: 202020;
 }
+
+footer a:link    { color: #ad582d }
+footer a:visited { color: #ad582d }
+footer a:hover   { color: #ad582d }
+footer a:active  { color: #ad582d }
